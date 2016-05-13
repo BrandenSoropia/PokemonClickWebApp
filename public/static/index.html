@@ -1,0 +1,31 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>Pokemon Click</title>
+	<link rel="stylesheet" type="text/css" href="./static/css/style.css">
+</head>
+<body>
+	<div>
+		<h2>/test Buttons</h2>
+		<form id="get-form-test" action="/test" method="GET">
+			<input type="text" id="name" name="name" placeholder="Please enter your name" />
+			<button form="get-form-test" type="submit">Send GET test</button>
+		</form>
+		<form id="post-form-test" action="/test" method="POST">
+			<input type="text" id="name" name="name" placeholder="Please enter your name" />
+			<button form="post-form-test" type="submit">Send POST test</button>
+		</form>
+
+		<br>
+
+		<h2>/ Buttons</h2>
+		<form id="post-form" action="/" method="POST">
+			<input type="text" id="name" name="name" placeholder="Please enter your name" />
+			<button form="post-form" type="submit">Send POST test</button>
+		</form>
+	</div>
+	<div id="container">
+	</div>
+	<!-- <script src="/public/static/bundle.js"></script> -->
+</body>
+</html>

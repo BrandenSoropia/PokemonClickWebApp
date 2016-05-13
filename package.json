@@ -1,0 +1,24 @@
+{
+  "name": "pokemon-click-web-app",
+  "version": "1.0.0",
+  "description": "Basic web app using React, Express and Redux. Click image gain experience and level up.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrandenSoropia/PokemonClickWebApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrandenSoropia/PokemonClickWebApp/issues"
+  },
+  "homepage": "https://github.com/BrandenSoropia/PokemonClickWebApp#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4"
+  }
+}
